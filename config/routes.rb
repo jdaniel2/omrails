@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/home'
-
+root :to => 'pages#home'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
