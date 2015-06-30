@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+get 'about' => 'pages#about'
 root :to => 'pages#home'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
