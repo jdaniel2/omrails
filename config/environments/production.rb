@@ -78,6 +78,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 # In production, :host should be set to the actual host of your application.
   
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-  #
+config.action_mailer.default_url_options = { :host => 'http://guarded-plateau-8079.herokuapp.com/' }
 end
